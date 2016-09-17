@@ -1,0 +1,61 @@
+body {
+    background: chocolate;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    color: red;
+    cursor: pointer;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.white-area {
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    /*cursor: url('../images/black-king.png'), move;*/
+    /*cursor: move;*/
+}
+
+.black-area {
+    background: black;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#chess-storage {
+    width: 200px;
+    height: 60px;
+    background: gray;
+    margin-left: 20px;
+    margin-top: 14px;
+    padding: 10px;
+    display: inline-block;
+}
