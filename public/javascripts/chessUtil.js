@@ -78,4 +78,5 @@ function drop(event) {
     if(document.getElementById(event.target.id).childNodes.length>1){
         document.getElementById("chess-storage").appendChild(document.getElementById(event.target.id).childNodes.item(0));
     }
+    
 }
